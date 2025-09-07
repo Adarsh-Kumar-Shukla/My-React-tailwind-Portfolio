@@ -3,9 +3,18 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "LAZAREVE - Landing Page",
+    title: "K72 - Project",
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
+    tags: ["React.js",'Javascript', "CSS", "basic tailwindCSS"],
+    demoUrl: "https://k-72-project.vercel.app/",
+    githubUrl: "https://github.com/Adarsh-Kumar-Shukla/k-72-Project",
+  },
+  {
+    id: 1,
+    title: "LAZAREVE - Landing Page",
+    description: "A beautiful landing page app using React and Tailwind.",
+    image: "/projects/project2.png",
     tags: ["JavaScript", "CSS", "basic tailwindCSS"],
     demoUrl: "https://adarsh-kumar-shukla.github.io/Lazarev-JS-Project/",
     githubUrl: "https://github.com/Adarsh-Kumar-Shukla/Lazarev-JS-Project",
