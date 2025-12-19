@@ -3,6 +3,16 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Prescripto – Healthcare Appointment Management System ",
+    description:
+      "A Healthcare FullStack Web Application Using MERN-Stack",
+    image: "/projects/project3.png",
+    tags: ["Javascript", "React.js", "Mongodb","Express.js"],
+    demoUrl: "https://prescripto-frontend-u8x5.onrender.com",
+    githubUrl: "https://github.com/Adarsh-Kumar-Shukla/prescripto",
+  },
+  {
+    id: 2,
     title: "K72 - Project",
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
@@ -11,7 +21,7 @@ const projects = [
     githubUrl: "https://github.com/Adarsh-Kumar-Shukla/k-72-Project",
   },
   {
-    id: 1,
+    id: 3,
     title: "LAZAREVE - Landing Page",
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project2.png",
@@ -19,16 +29,6 @@ const projects = [
     demoUrl: "https://adarsh-kumar-shukla.github.io/Lazarev-JS-Project/",
     githubUrl: "https://github.com/Adarsh-Kumar-Shukla/Lazarev-JS-Project",
   },
-  // {
-  //   id: 2,
-  //   title: "Orbit Analytics Dashboard",
-  //   description:
-  //     "Interactive analytics dashboard with data visualization and filtering capabilities.",
-  //   image: "/projects/project2.png",
-  //   tags: ["TypeScript", "D3.js", "Next.js"],
-  //   demoUrl: "#",
-  //   githubUrl: "#",
-  // },
 ];
 
 export const ProjectsSection = () => {
