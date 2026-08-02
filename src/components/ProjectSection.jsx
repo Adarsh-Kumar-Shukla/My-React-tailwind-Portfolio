@@ -6,7 +6,7 @@ const projects = [
     title: "SnapCart — 10 Minutes Grocery Delivery",
     description: "A Fullstack Grocery Delivery Web Application using MERN-Stack",
     image: "/projects/project1.webp",
-    tags: ['Typescript', "Next.js", "Mongodb", "Socket.IO"],
+    tags: ['Typescript', "Next.js","Node.js", "MongoDB", "Socket.IO"],
     demoUrl: "https://snapcart-ivory.vercel.app/",
     githubUrl: "https://github.com/Adarsh-Kumar-Shukla/SnapCart-Grocery-Deliveries",
   },
@@ -22,12 +22,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "LAZAREVE - Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Rydex – Ride Booking Platform",
+    description: "Developed a production-ready full-stack ride booking platform",
     image: "/projects/project3.png",
-    tags: ["JavaScript", "CSS", "basic tailwindCSS"],
-    demoUrl: "https://adarsh-kumar-shukla.github.io/Lazarev-JS-Project/",
-    githubUrl: "https://github.com/Adarsh-Kumar-Shukla/Lazarev-JS-Project",
+    tags: ["TypeScript", "Next.js", "Express.js","Node.js", "MongoDB","Socket.IO"],
+    demoUrl: "https://rydex-ride-booking-j7lm.vercel.app/",
+    githubUrl: "https://github.com/Adarsh-Kumar-Shukla/Rydex-Ride-Booking",
   },
 ];
 
