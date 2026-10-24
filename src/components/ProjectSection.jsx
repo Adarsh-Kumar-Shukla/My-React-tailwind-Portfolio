@@ -3,29 +3,58 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SnapCart — 10 Minutes Grocery Delivery",
-    description: "A Fullstack Grocery Delivery Web Application using MERN-Stack",
-    image: "/projects/project1.webp",
-    tags: ['Typescript', "Next.js","Node.js", "MongoDB", "Socket.IO"],
-    demoUrl: "https://snapcart-ivory.vercel.app/",
-    githubUrl: "https://github.com/Adarsh-Kumar-Shukla/SnapCart-Grocery-Deliveries",
+    title: "CortexAI — Multi-Agent AI Platform",
+    description:
+      "A full-stack AI platform featuring conversational AI, web search, coding assistance, PDF processing, presentation generation, and image analysis.",
+    image: "/projects/project4.png",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "LangGraph",
+      "LLM APIs",
+      "Redis",
+      "Firebase",
+      "AWS ECS",
+    ],
+    demoUrl: "https://d1pbhvn37dp4je.cloudfront.net/",
+    githubUrl:
+      "https://github.com/Adarsh-Kumar-Shukla/CortexAI-Multi-Agent-AI-Platform",
   },
   {
     id: 2,
-    title: "Prescripto – Healthcare Appointment Management System ",
+    title: "SnapCart — 10 Minutes Grocery Delivery",
     description:
-      "A Healthcare FullStack Web Application Using MERN-Stack",
+      "A Fullstack Grocery Delivery Web Application using MERN-Stack",
+    image: "/projects/project1.webp",
+    tags: ["Typescript", "Next.js", "Node.js", "MongoDB", "Socket.IO"],
+    demoUrl: "https://snapcart-ivory.vercel.app/",
+    githubUrl:
+      "https://github.com/Adarsh-Kumar-Shukla/SnapCart-Grocery-Deliveries",
+  },
+  {
+    id: 3,
+    title: "Prescripto – Healthcare Appointment Management System ",
+    description: "A Healthcare FullStack Web Application Using MERN-Stack",
     image: "/projects/project2.png",
-    tags: ["Javascript", "React.js", "Mongodb","Express.js"],
+    tags: ["Javascript", "React.js", "Mongodb", "Express.js"],
     demoUrl: "https://prescripto-frontend-u8x5.onrender.com",
     githubUrl: "https://github.com/Adarsh-Kumar-Shukla/prescripto",
   },
   {
-    id: 3,
+    id: 4,
     title: "Rydex – Ride Booking Platform",
-    description: "Developed a production-ready full-stack ride booking platform",
+    description:
+      "Developed a production-ready full-stack ride booking platform",
     image: "/projects/project3.png",
-    tags: ["TypeScript", "Next.js", "Express.js","Node.js", "MongoDB","Socket.IO"],
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "Socket.IO",
+    ],
     demoUrl: "https://rydex-ride-booking-j7lm.vercel.app/",
     githubUrl: "https://github.com/Adarsh-Kumar-Shukla/Rydex-Ride-Booking",
   },
@@ -62,7 +91,10 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span key={Math.random()} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                    <span
+                      key={Math.random()}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                    >
                       {tag}
                     </span>
                   ))}
